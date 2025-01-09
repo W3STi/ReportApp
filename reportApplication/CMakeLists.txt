@@ -17,6 +17,9 @@ qt_add_qml_module(appreportApplication
     VERSION 1.0
     QML_FILES
         Main.qml
+        RESOURCES
+        RESOURCES icons/icon_file.png
+        RESOURCES icons/apply_icon.png
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
